@@ -2,7 +2,7 @@
 
 ![pic](pics/1.JPG)
 
-##crystalhand updates:
+## crystalhand updates:
 modified the silk screen so it properly shows the left and right hand columns going from 0-5 left to right.  Previously they were identical front and back.
 Added 2 separable pinkie columns and the break outs needed to wire
 Added thumb cluster break out.

@@ -4,6 +4,7 @@ The flex PCB for Gwyrhyr is forked from an improved variant of the BastardKB ope
 The board has been modified in the following ways:
 - Key footprints changed to Choc switches using the [reversible footprint by Keebio](https://github.com/keebio/Keebio-Parts.pretty/blob/master/Kailh-PG1350-1u-No-Clickhole.kicad_mod)
 - Updated diode footprint to one from above Keebio library 
+- inter-column connections replaced with through-hole connections to better fit custom staggers
 - Added HAT thumb cluster for the Gwyrhyr
 - Added board mount derived from [Swanmatch's ProMicro-Home](https://github.com/swanmatch/MxLEDBitPCB/tree/master/MxLEDBitPCB-promicro)
 

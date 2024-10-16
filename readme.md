@@ -1,28 +1,14 @@
-# Dactyl Manuform Mini PCB - plate
+# PCB for Gwyrhyr 
+The flex PCB for Gwyrhyr is forked from an improved variant of the BastardKB open-source manuform board, including the improvements for shape and access made by crystalhand.
 
-![pic](pics/1.JPG)
+The board has been modified in the following ways:
+- Key footprints changed to Choc switches using the [reversible footprint by Keebio](https://github.com/keebio/Keebio-Parts.pretty/blob/master/Kailh-PG1350-1u-No-Clickhole.kicad_mod)
+- Updated diode footprint to one from above Keebio library 
+- Added HAT thumb cluster for the Gwyrhyr
+- Added board mount derived from [Swanmatch's ProMicro-Home](https://github.com/swanmatch/MxLEDBitPCB/tree/master/MxLEDBitPCB-promicro)
 
-## crystalhand updates:
-<ul>
-  <li>Added a break out section for the pinkie/outside 2 columns so that they could be split from the main section. Allows for same PCB to be used with Dactyl and Manuform</li>
-<li>I added some extra through hole locations to access the columns and rows.  </li>
-<li>I redid the silk screen column and rows to make them accurate for left and right hand</li>
-<li>Some trimming of edges of PCB to make it fit better on my case</li>
-<li>Added additional easy break tabs for smaller versions of Manuform</li>
-</ul>
 
-Flexible PCB made for the Dactyl Manuform Mini - up to 6x6 and breakable down to 5x3.
-
-This repository contains all files necessary to order a PCB.
-
-If you want to modify the design files, the Kicad sources are included (you will need a 5.99 nightly version).
-If you just want to order the PCBs, check out the Release section which contain the gerber files.
-
-## How to order
-
-Order with a 0.6mm PCB thickness
-
-## License
+## License (inherited from fork)
 
 Licensed under CC BY-NC-SA 4.0
-Copyright Quentin Lebastard 2021
+Copyright Quentin Lebastard, Crystalhand, Swanmatch, Lewis Merriman
